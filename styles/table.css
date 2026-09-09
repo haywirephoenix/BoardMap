@@ -50,7 +50,7 @@
 }
 
 #points-table :is(
-  [id="Voltage"], .voltage-cell,
+  /* [id="Voltage"], .voltage-cell, */
   /* [id="Info"],    .label-cell, */
   [id="X%"],      .XPos-cell,
   [id="Y%"],      .YPos-cell
