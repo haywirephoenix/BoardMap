@@ -1,0 +1,123 @@
+/* Base Toolbar Layout */
+.toolbar {
+    display: flex;
+    gap: 6px;
+    height: 21px;
+    margin-bottom: 13px;
+}
+
+.toolbar button,
+.toolbar .toggle-btn {
+    background: #111;
+    color: #aaa;
+    border: 1px solid #444;
+    padding: 6px 14px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 8px;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+    min-width: 21px;
+}
+
+.toolbar button:hover,
+.toolbar .toggle-btn:hover {
+    border-color: #777;
+    color: #fff;
+}
+
+.toolbar button.active {
+    border-color: #000;
+    color: #000;
+    background-color: #fff;
+}
+
+.toolbar .right {
+    margin-left: auto;
+}
+
+/* Hide raw checkbox input */
+.toggle-checkbox {
+    display: none;
+}
+
+/* Toggle Label Styling */
+.toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Label text switches */
+.toggle-switch {
+    min-width: 21px;
+}
+
+.toggle-switch.opt1 {
+    display: inline-block;
+}
+
+.toggle-switch.opt2 {
+    display: none;
+}
+
+.toggle-checkbox:checked~.toggle-switch.opt1 {
+    display: none;
+}
+
+.toggle-checkbox:checked~.toggle-switch.opt2 {
+    display: inline-block;
+}
+
+/* Circle Indicator Container */
+.circle-indicator {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+/* Two vertically stacked circles */
+.circle-indicator::before,
+.circle-indicator::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    /* border: 1px solid #fff; */
+    box-sizing: border-box;
+}
+
+/* Default state: Top circle solid white, bottom circle outline */
+.circle-indicator::before {
+    background-color: #fff;
+}
+
+.circle-indicator::after {
+    background-color: #5d5d5d;
+}
+
+/* Checked state: Top circle outline, bottom circle solid white */
+.toggle-checkbox:checked~.circle-indicator::before {
+    background-color: #5d5d5d;
+}
+
+.toggle-checkbox:checked~.circle-indicator::after {
+    background-color: #fff;
+}
+
+/* Maintain active button styling when active/checked */
+.toggle-btn:has(.toggle-checkbox:checked) {
+    background: #111;
+    /* Keep base background or set to #fff if preferred */
+    color: #fff;
+}
+
+/* Board Visibility via :has() (unchanged from your logic) */
+.main:has(.toggle-checkbox:checked) #front {
+    display: none;
+}
+
+.main:has(.toggle-checkbox:checked) #back {
+    display: block;
+}

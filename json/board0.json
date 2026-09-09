@@ -1,0 +1,1335 @@
+{
+  "front": {
+    "positions": [
+      {
+        "id": 1,
+        "x": 0.14970759924006238,
+        "y": 0.4872356120224006
+      },
+      {
+        "id": 2,
+        "x": 0.14826013326644896,
+        "y": 0.4491758219401042
+      },
+      {
+        "id": 3,
+        "x": 0.14970759924006238,
+        "y": 0.37996324258699793
+      },
+      {
+        "id": 4,
+        "x": 0.5220780436711512,
+        "y": 0.1365127138062876
+      },
+      {
+        "id": 5,
+        "x": 0.5786701305113787,
+        "y": 0.1377916310230159
+      },
+      {
+        "id": 6,
+        "x": 0.6912564138574726,
+        "y": 0.07084692797550622
+      },
+      {
+        "id": 7,
+        "x": 0.8540693664550781,
+        "y": 0.33668848673502605
+      },
+      {
+        "id": 8,
+        "x": 0.8529281461811096,
+        "y": 0.3675353403712873
+      },
+      {
+        "id": 9,
+        "x": 0.14763355255126953,
+        "y": 0.19002182006835938
+      },
+      {
+        "id": 10,
+        "x": 0.17013355255126952,
+        "y": 0.23668848673502604
+      },
+      {
+        "id": 11,
+        "x": 0.16763355255126952,
+        "y": 0.26668848673502604
+      },
+      {
+        "id": 12,
+        "x": 0.1323941662079175,
+        "y": 0.1814959814681178
+      },
+      {
+        "id": 13,
+        "x": 0.13460887328856394,
+        "y": 0.2118765767572882
+      },
+      {
+        "id": 14,
+        "x": 0.13460887328856394,
+        "y": 0.23173789805912717
+      },
+      {
+        "id": 15,
+        "x": 0.13434135443199247,
+        "y": 0.2515947575348166
+      },
+      {
+        "id": 16,
+        "x": 0.26180585478260954,
+        "y": 0.5241335211594109
+      },
+      {
+        "id": 17,
+        "x": 0.19558030070136756,
+        "y": 0.4077751411025217
+      },
+      {
+        "id": 18,
+        "x": 0.21906936645507813,
+        "y": 0.40668848673502606
+      },
+      {
+        "id": 19,
+        "x": 0.23656936645507812,
+        "y": 0.40668848673502606
+      },
+      {
+        "id": 20,
+        "x": 0.3642259085199125,
+        "y": 0.07344360882825772
+      },
+      {
+        "id": 21,
+        "x": 0.36846688470027206,
+        "y": 0.10595776094705475
+      },
+      {
+        "id": 22,
+        "x": 0.36740664065518214,
+        "y": 0.12716264276366152
+      },
+      {
+        "id": 23,
+        "x": 0.4151176226842268,
+        "y": 0.1285763015514353
+      },
+      {
+        "id": 24,
+        "x": 0.47518378254359983,
+        "y": 0.07018265773570799
+      },
+      {
+        "id": 25,
+        "x": 0.47132834951627656,
+        "y": 0.0997409787711152
+      },
+      {
+        "id": 26,
+        "x": 0.3926638639242465,
+        "y": 0.1583231597653503
+      },
+      {
+        "id": 27,
+        "x": 0.43288344994097344,
+        "y": 0.1556850594387257
+      },
+      {
+        "id": 28,
+        "x": 0.42852030590298273,
+        "y": 0.17507681129247613
+      },
+      {
+        "id": 29,
+        "x": 0.3730699590493442,
+        "y": 0.2561763454478614
+      },
+      {
+        "id": 30,
+        "x": 0.39087646759775074,
+        "y": 0.2452184943388226
+      },
+      {
+        "id": 31,
+        "x": 0.4926974650603318,
+        "y": 0.26725534868685347
+      },
+      {
+        "id": 32,
+        "x": 0.5268388915198466,
+        "y": 0.23756714907575002
+      },
+      {
+        "id": 33,
+        "x": 0.5416829899805053,
+        "y": 0.21975422930908797
+      },
+      {
+        "id": 34,
+        "x": 0.6025437936692059,
+        "y": 0.2177750160016811
+      },
+      {
+        "id": 35,
+        "x": 0.5887701210574757,
+        "y": 0.23159385718461464
+      },
+      {
+        "id": 36,
+        "x": 0.6431585798690069,
+        "y": 0.2417463697207829
+      },
+      {
+        "id": 37,
+        "x": 0.6727810460371028,
+        "y": 0.2695673744647479
+      },
+      {
+        "id": 38,
+        "x": 0.6828599093106189,
+        "y": 0.2964443424068019
+      },
+      {
+        "id": 39,
+        "x": 0.6684615332055958,
+        "y": 0.30988282637782893
+      },
+      {
+        "id": 40,
+        "x": 0.7908283426149154,
+        "y": 0.2699205531632122
+      },
+      {
+        "id": 41,
+        "x": 0.8452384173739115,
+        "y": 0.2941028096031057
+      },
+      {
+        "id": 42,
+        "x": 0.8271017257875795,
+        "y": 0.22692987504784595
+      },
+      {
+        "id": 43,
+        "x": 0.8150105980633582,
+        "y": 0.3988925875093109
+      },
+      {
+        "id": 44,
+        "x": 0.8150105980633582,
+        "y": 0.41501409180257326
+      },
+      {
+        "id": 45,
+        "x": 0.7767220269366573,
+        "y": 0.4257617613314148
+      },
+      {
+        "id": 46,
+        "x": 0.8875573644086862,
+        "y": 0.43382251347804596
+      },
+      {
+        "id": 47,
+        "x": 0.8694206728223541,
+        "y": 0.4391963482424667
+      },
+      {
+        "id": 48,
+        "x": 0.8875573644086862,
+        "y": 0.46069168730014987
+      },
+      {
+        "id": 49,
+        "x": 0.8694206728223541,
+        "y": 0.46606552206457064
+      },
+      {
+        "id": 50,
+        "x": 0.8875573644086862,
+        "y": 0.482187026357833
+      },
+      {
+        "id": 51,
+        "x": 0.8694206728223541,
+        "y": 0.49293469588667455
+      },
+      {
+        "id": 52,
+        "x": 0.8855421764546493,
+        "y": 0.5009954480333058
+      },
+      {
+        "id": 53,
+        "x": 0.6240226571484498,
+        "y": 0.4289981491233206
+      },
+      {
+        "id": 54,
+        "x": 0.5541690060805496,
+        "y": 0.5200666127377683
+      },
+      {
+        "id": 55,
+        "x": 0.3725495192255765,
+        "y": 0.5428337444322265
+      },
+      {
+        "id": 56,
+        "x": 0.4284324400798966,
+        "y": 0.5987166652865467
+      },
+      {
+        "id": 57,
+        "x": 0.47965845086302344,
+        "y": 0.631832470237255
+      },
+      {
+        "id": 58,
+        "x": 0.6100519328564371,
+        "y": 0.8077601840378925
+      },
+      {
+        "id": 59,
+        "x": 0.6178134496417594,
+        "y": 0.7705049034683457
+      },
+      {
+        "id": 60,
+        "x": 0.616261146284695,
+        "y": 0.8263878243226659
+      },
+      {
+        "id": 61,
+        "x": 0.6317841798553394,
+        "y": 0.9236655013653713
+      },
+      {
+        "id": 62,
+        "x": 0.8221520618177647,
+        "y": 0.5873308718132788
+      },
+      {
+        "id": 63,
+        "x": 0.784561589801363,
+        "y": 0.6541583802411559
+      },
+      {
+        "id": 64,
+        "x": 0.8269713531019187,
+        "y": 0.7094195891334389
+      },
+      {
+        "id": 65,
+        "x": 0.6669708824680043,
+        "y": 0.8662072050603815
+      },
+      {
+        "id": 66,
+        "x": 0.6737825386890736,
+        "y": 0.8841245738114578
+      },
+      {
+        "id": 67,
+        "x": 0.6876896090037027,
+        "y": 0.8814756083049208
+      },
+      {
+        "id": 68,
+        "x": 0.6966298684916786,
+        "y": 0.7344580226921147
+      },
+      {
+        "id": 69,
+        "x": 0.7135170253022998,
+        "y": 0.7371069881986517
+      },
+      {
+        "id": 70,
+        "x": 0.741331165931558,
+        "y": 0.7437294019649944
+      },
+      {
+        "id": 71,
+        "x": 0.7482847010888726,
+        "y": 0.7662456087705593
+      },
+      {
+        "id": 72,
+        "x": 0.7644442621332358,
+        "y": 0.7567284782501889
+      },
+      {
+        "id": 73,
+        "x": 0.7714541399898365,
+        "y": 0.7742531735165173
+      },
+      {
+        "id": 74,
+        "x": 0.7583106190087102,
+        "y": 0.7835996776585592
+      },
+      {
+        "id": 75,
+        "x": 0.7283638556155966,
+        "y": 0.783295446535855
+      },
+      {
+        "id": 76,
+        "x": 0.7423201821666199,
+        "y": 0.7865792881869689
+      },
+      {
+        "id": 77,
+        "x": 0.7324432879068657,
+        "y": 0.9474479483068221
+      },
+      {
+        "id": 78,
+        "x": 0.7178685282668015,
+        "y": 0.9371598823196402
+      },
+      {
+        "id": 79,
+        "x": 0.7718808728152747,
+        "y": 0.8708590126244679
+      },
+      {
+        "id": 80,
+        "x": 0.8576147530509467,
+        "y": 0.8960076183709125
+      },
+      {
+        "id": 81,
+        "x": 0.8739041902957243,
+        "y": 0.8971507368139328
+      },
+      {
+        "id": 120,
+        "x": 0.39634021951301035,
+        "y": 0.4081498895714786
+      }
+    ],
+    "data": [
+      {
+        "id": 1,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 2,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 3,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 4,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 5,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 6,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 7,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 8,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 9,
+        "voltage": "",
+        "resistance": "12M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 10,
+        "voltage": "",
+        "resistance": "0",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 11,
+        "voltage": "",
+        "resistance": "0",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 12,
+        "voltage": "",
+        "resistance": "0",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 13,
+        "voltage": "",
+        "resistance": "0",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 14,
+        "voltage": "",
+        "resistance": "0",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 15,
+        "voltage": "",
+        "resistance": "0",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 16,
+        "voltage": "",
+        "resistance": "3.35M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 17,
+        "voltage": "",
+        "resistance": "3.35M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 18,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 19,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 20,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 21,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 22,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 23,
+        "voltage": "",
+        "resistance": "4-20M",
+        "pinType": "CAPACITIVE_OPEN"
+      },
+      {
+        "id": 24,
+        "voltage": "",
+        "resistance": "9.93k",
+        "pinType": "MEDIUM_RESISTANCE"
+      },
+      {
+        "id": 25,
+        "voltage": "",
+        "resistance": "9.93k",
+        "pinType": "MEDIUM_RESISTANCE"
+      },
+      {
+        "id": 26,
+        "voltage": " ",
+        "resistance": "0.536M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 27,
+        "voltage": " ",
+        "resistance": "12-20M",
+        "pinType": "CAPACITIVE_OPEN"
+      },
+      {
+        "id": 28,
+        "voltage": " ",
+        "resistance": "0.5-0.54M",
+        "pinType": "FLOATING"
+      },
+      {
+        "id": 29,
+        "voltage": "",
+        "resistance": "5.1M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 30,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 31,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 32,
+        "voltage": " ",
+        "resistance": "11-20M",
+        "pinType": "CAPACITIVE_OPEN"
+      },
+      {
+        "id": 33,
+        "voltage": " ",
+        "resistance": "10-20M",
+        "pinType": "CAPACITIVE_OPEN"
+      },
+      {
+        "id": 34,
+        "voltage": "",
+        "resistance": "5.89M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 35,
+        "voltage": "",
+        "resistance": "6M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 36,
+        "voltage": "",
+        "resistance": "13k",
+        "pinType": "MEDIUM_RESISTANCE"
+      },
+      {
+        "id": 37,
+        "voltage": "",
+        "resistance": "3M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 38,
+        "voltage": "",
+        "resistance": "3M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 39,
+        "voltage": "",
+        "resistance": "3M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 40,
+        "voltage": "",
+        "resistance": "5.57M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 41,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 42,
+        "voltage": " ",
+        "resistance": "34.5k",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 43,
+        "voltage": "",
+        "resistance": "3.32M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 44,
+        "voltage": "",
+        "resistance": "3.32M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 45,
+        "voltage": "",
+        "resistance": "18.82M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 46,
+        "voltage": " ",
+        "resistance": "34.6k",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 47,
+        "voltage": " ",
+        "resistance": "1.77M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 48,
+        "voltage": " ",
+        "resistance": "34.5k",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 49,
+        "voltage": " ",
+        "resistance": "34.5k",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 50,
+        "voltage": " ",
+        "resistance": "34.5k",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 51,
+        "voltage": "",
+        "resistance": "3.3M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 52,
+        "voltage": "",
+        "resistance": "3.3M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 53,
+        "voltage": "",
+        "resistance": "98.7k",
+        "pinType": "MEDIUM_RESISTANCE"
+      },
+      {
+        "id": 54,
+        "voltage": "",
+        "resistance": "98.7kΩ",
+        "pinType": "MEDIUM_RESISTANCE"
+      },
+      {
+        "id": 55,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 56,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 57,
+        "voltage": "",
+        "resistance": "3.2M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 58,
+        "voltage": " ",
+        "resistance": "6-16.92M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 59,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 60,
+        "voltage": " ",
+        "resistance": "15.45M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 61,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 62,
+        "voltage": "",
+        "resistance": "36.5k",
+        "pinType": "MEDIUM_RESISTANCE"
+      },
+      {
+        "id": 63,
+        "voltage": "",
+        "resistance": "3.43M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 64,
+        "voltage": "",
+        "resistance": "3.19M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 65,
+        "voltage": "",
+        "resistance": "0.316M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 66,
+        "voltage": "",
+        "resistance": "1.81M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 67,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 68,
+        "voltage": "",
+        "resistance": "3.22M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 69,
+        "voltage": "",
+        "resistance": "5.22M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 70,
+        "voltage": "",
+        "resistance": "3.2M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 71,
+        "voltage": "",
+        "resistance": "3.2M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 72,
+        "voltage": "",
+        "resistance": "3.2M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 73,
+        "voltage": " ",
+        "resistance": "5.1-5.6M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 74,
+        "voltage": " ",
+        "resistance": "5.1-5.6",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 75,
+        "voltage": " ",
+        "resistance": "Climbs to 0L",
+        "pinType": "CAPACITIVE_OPEN"
+      },
+      {
+        "id": 76,
+        "voltage": " ",
+        "resistance": "Climbing (MΩ)",
+        "pinType": "FLOATING"
+      },
+      {
+        "id": 77,
+        "voltage": "",
+        "resistance": "4.9M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 78,
+        "voltage": "",
+        "resistance": "15.2M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 79,
+        "voltage": "",
+        "resistance": "14.26M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 80,
+        "voltage": " ",
+        "resistance": "14.45M",
+        "pinType": "FLOATING"
+      },
+      {
+        "id": 81,
+        "voltage": "",
+        "resistance": "13.72M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 120,
+        "label": " ",
+        "voltage": "",
+        "resistance": "3.39M",
+        "pinType": "HIGH_IMPEDANCE"
+      }
+    ]
+  },
+  "back": {
+    "positions": [
+      {
+        "id": 82,
+        "x": 0.11201665354519749,
+        "y": 0.6351509010003983
+      },
+      {
+        "id": 83,
+        "x": 0.11284886998794007,
+        "y": 0.9358667946172873
+      },
+      {
+        "id": 84,
+        "x": 0.18625690272524634,
+        "y": 0.9399450184044659
+      },
+      {
+        "id": 85,
+        "x": 0.8421335147542757,
+        "y": 0.1303078443467926
+      },
+      {
+        "id": 86,
+        "x": 0.8628445181165854,
+        "y": 0.1377425630205334
+      },
+      {
+        "id": 87,
+        "x": 0.8811657903217055,
+        "y": 0.13880466568821062
+      },
+      {
+        "id": 88,
+        "x": 0.2685979461669922,
+        "y": 0.15002182006835937
+      },
+      {
+        "id": 89,
+        "x": 0.1610979461669922,
+        "y": 0.30002182006835937
+      },
+      {
+        "id": 90,
+        "x": 0.8710980900237086,
+        "y": 0.2997453844819436
+      },
+      {
+        "id": 91,
+        "x": 0.8810979461669922,
+        "y": 0.20002182006835936
+      },
+      {
+        "id": 92,
+        "x": 0.8785979461669922,
+        "y": 0.17002182006835936
+      },
+      {
+        "id": 93,
+        "x": 0.8472007784518129,
+        "y": 0.18503829637280012
+      },
+      {
+        "id": 94,
+        "x": 0.8464042013994163,
+        "y": 0.2062803497263452
+      },
+      {
+        "id": 95,
+        "x": 0.8193205816179343,
+        "y": 0.284875947134462
+      },
+      {
+        "id": 96,
+        "x": 0.8304726603514857,
+        "y": 0.27319281779001225
+      },
+      {
+        "id": 97,
+        "x": 0.8408281620326405,
+        "y": 0.2508886617687899
+      },
+      {
+        "id": 98,
+        "x": 0.859138103237004,
+        "y": 0.479661057531087
+      },
+      {
+        "id": 99,
+        "x": 0.8477595928547383,
+        "y": 0.5110874205785478
+      },
+      {
+        "id": 100,
+        "x": 0.3463991540891032,
+        "y": 0.9123431894848083
+      },
+      {
+        "id": 101,
+        "x": 0.5833182692263799,
+        "y": 0.484157805897094
+      },
+      {
+        "id": 102,
+        "x": 0.6425880276428211,
+        "y": 0.3900788215826286
+      },
+      {
+        "id": 103,
+        "x": 0.7032689707834633,
+        "y": 0.3750261840923141
+      },
+      {
+        "id": 104,
+        "x": 0.728670295819081,
+        "y": 0.3844340825237606
+      },
+      {
+        "id": 105,
+        "x": 0.8099823974943453,
+        "y": 0.48429955574438366
+      },
+      {
+        "id": 106,
+        "x": 0.8413970340101533,
+        "y": 0.43194182821803706
+      },
+      {
+        "id": 107,
+        "x": 0.11384090149541559,
+        "y": 0.6123517949433744
+      },
+      {
+        "id": 108,
+        "x": 0.11384090149541559,
+        "y": 0.5942461623755414
+      },
+      {
+        "id": 109,
+        "x": 0.12637556966346103,
+        "y": 0.5942461623755414
+      },
+      {
+        "id": 110,
+        "x": 0.11384090149541559,
+        "y": 0.5775332707744648
+      },
+      {
+        "id": 111,
+        "x": 0.1274201253441315,
+        "y": 0.5761405298077084
+      },
+      {
+        "id": 112,
+        "x": 0.11384090149541559,
+        "y": 0.5594276382066318
+      },
+      {
+        "id": 113,
+        "x": 0.1274201253441315,
+        "y": 0.5552494153063626
+      },
+      {
+        "id": 114,
+        "x": 0.11384090149541559,
+        "y": 0.5399292646720424
+      },
+      {
+        "id": 115,
+        "x": 0.11384090149541559,
+        "y": 0.5190381501706967
+      },
+      {
+        "id": 116,
+        "x": 0.11384090149541559,
+        "y": 0.5009325176028636
+      },
+      {
+        "id": 117,
+        "x": 0.11279634581474514,
+        "y": 0.4800414031015178
+      },
+      {
+        "id": 118,
+        "x": 0.566993042631182,
+        "y": 0.6407996514120511
+      },
+      {
+        "id": 119,
+        "x": 0.5909368008417003,
+        "y": 0.3442746804522063
+      }
+    ],
+    "data": [
+      {
+        "id": 82,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 83,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 84,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 85,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 86,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 87,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 88,
+        "voltage": "",
+        "resistance": "0.665M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 89,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 90,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 91,
+        "voltage": "",
+        "resistance": "Climbing (MΩ)",
+        "pinType": "FLOATING"
+      },
+      {
+        "id": 92,
+        "voltage": "",
+        "resistance": "Climbing (MΩ)",
+        "pinType": "FLOATING"
+      },
+      {
+        "id": 93,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 94,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 95,
+        "voltage": "",
+        "resistance": "0.379",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 96,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 97,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 98,
+        "voltage": "",
+        "resistance": "0.477M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 99,
+        "voltage": "",
+        "resistance": "9M",
+        "pinType": "FLOATING"
+      },
+      {
+        "id": 100,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 101,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 102,
+        "voltage": "",
+        "resistance": "Climbing (MΩ)",
+        "pinType": "FLOATING"
+      },
+      {
+        "id": 103,
+        "voltage": "",
+        "resistance": "0.633M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 104,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 105,
+        "voltage": "",
+        "resistance": "Climbs to 0L",
+        "pinType": "CAPACITIVE_OPEN"
+      },
+      {
+        "id": 106,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      },
+      {
+        "id": 107,
+        "voltage": "",
+        "resistance": "1.53M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 108,
+        "voltage": "",
+        "resistance": "3.02M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 109,
+        "voltage": "",
+        "resistance": "3.12M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 110,
+        "voltage": "",
+        "resistance": "11-20M",
+        "pinType": "CAPACITIVE_OPEN"
+      },
+      {
+        "id": 111,
+        "voltage": "",
+        "resistance": "19.8M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 112,
+        "voltage": "",
+        "resistance": "13-19M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 113,
+        "voltage": "",
+        "resistance": "15-19.48M",
+        "pinType": "CAPACITIVE_BOUNDED"
+      },
+      {
+        "id": 114,
+        "voltage": "",
+        "resistance": "13-20M",
+        "pinType": "CAPACITIVE_OPEN"
+      },
+      {
+        "id": 115,
+        "voltage": "",
+        "resistance": "3.17M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 116,
+        "voltage": "",
+        "resistance": "13.51M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 117,
+        "voltage": "",
+        "resistance": "3.2M",
+        "pinType": "HIGH_IMPEDANCE"
+      },
+      {
+        "id": 118,
+        "voltage": "",
+        "resistance": "",
+        "pinType": "GROUND"
+      },
+      {
+        "id": 119,
+        "voltage": "",
+        "resistance": "0L",
+        "pinType": "OPEN_CIRCUIT"
+      }
+    ]
+  }
+}

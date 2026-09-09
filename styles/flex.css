@@ -1,0 +1,42 @@
+/* Base styles */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* Keep row height constrained if you want full-screen fit on desktop */
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    min-width: 0;
+    min-height: 0; /* Critical for flex children to allow overflow scrolling */
+}
+
+.scroller {
+    overflow-y: auto;
+    height: 100%;
+}
+
+/* Mobile styles */
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100vh; /* Lock container to screen height */
+    }
+
+    .boards {
+        flex: 0 0 auto; /* Prevent boards from expanding infinitely */
+        max-height: 40vh; /* Adjust board section height on mobile */
+    }
+
+    .column:has(.points-table-wrap) {
+        flex: 1 1 auto; /* Let table column take remaining height */
+        min-height: 0;   /* Forces column to respect parent bounds */
+    }
+}

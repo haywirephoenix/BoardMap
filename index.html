@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <title>Quest Board Map</title>
+    <link rel="stylesheet" href="styles/scroll.css">
+    <link rel="stylesheet" href="styles/flex.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/toggle.css">
+    <link rel="stylesheet" href="styles/points.css">
+    <link rel="stylesheet" href="styles/table.css">
+    <link rel="stylesheet" href="styles/tools.css">
+    <link rel="stylesheet" href="styles/pinColors.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="toolbar">
+            <label class="toggle-btn">
+                <input type="checkbox" class="toggle-checkbox" id="toggle">
+                <span class="toggle-switch opt1">Front</span>
+                <span class="toggle-switch opt2">Back</span>
+                <span class="circle-indicator"></span>
+            </label>
+            <button class="mode-btn" data-mode="select">Select</button>
+            <button class="mode-btn" data-mode="add">Add</button>
+            <button class="mode-btn" data-mode="move">Move</button>
+            <button class="mode-btn" data-mode="remove">Remove</button>
+            <div class="right">
+                <button class="click-btn" id="import-btn">Import</button>
+                <button class="click-btn" id="export-btn" type="button">Export</button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="boards column">
+                <div class="board" id="front">
+                    <img class="boardimg" src="img/front.png" />
+                    <div class="overlay" id="overlay-front" data-side="front"></div>
+                </div>
+                <div class="board" id="back">
+                    <img class="boardimg" src="img/back.png" />
+                    <div class="overlay" id="overlay-back" data-side="back"></div>
+                </div>
+            </div>
+
+            <div class="column">
+
+                <div class="points-table-wrap scroller">
+
+                    <table id="points-table">
+                        <thead>
+                            <tr>
+                                <!-- <th id="Color">Col</th> -->
+                                <th id="ID">ID</th>
+                                <th id="Voltage">Volt</th>
+                                <th id="Resistance">Ω</th>
+                                <th id="Type">Type</th>
+                                <th id="Info">Info</th>
+                                <th id="X%">X%</th>
+                                <th id="Y%">Y%</th>
+                                <th id="Rem">Rem</th>
+                            </tr>
+                        </thead>
+                        <tbody id="points-tbody"></tbody>
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="point-form hidden" id="point-form">
+
+        <div class="point-form-row pintype" id="pintype">
+            <label for="pf-pintype">Type</label>
+            <select id="pf-pintype">
+                <!-- Options injected dynamically from PIN_CONFIG -->
+            </select>
+        </div>
+
+        <div class="point-form-row">
+            <label for="pf-voltage">Voltage</label>
+            <input type="text" id="pf-voltage" placeholder="" data-user-modified="false">
+        </div>
+
+        <div class="point-form-row">
+            <label for="pf-resistance">Resistance</label>
+            <input type="text" id="pf-resistance" placeholder="" data-user-modified="false">
+        </div>
+
+        <div class="point-form-row hidden" id="color">
+            <label>Color</label>
+            <input type="color" id="pf-color" value="#ffffff">
+        </div>
+        <div class="point-form-row actions" id="actions">
+            <button type="button" id="pf-add">Add point</button>
+            <button type="button" id="pf-cancel">Cancel</button>
+        </div>
+    </div>
+
+    <script src="js/qb-colors.js"></script>
+    <script src="js/qb-pins.js"></script>
+    <script src="js/qb-storage.js"></script>
+    <script src="js/qb-state.js"></script>
+    <script src="js/qb-zoom-pan.js"></script>
+    <script src="js/qb-crosshair.js"></script>
+    <script src="js/qb-form.js"></script>
+    <script src="js/qb-points.js"></script>
+    <script src="js/qb-table.js"></script>
+    <script src="js/qb-modes.js"></script>
+    <script src="js/qb-import.js"></script>
+    <script src="js/qb-main.js"></script>
+</body>
+
+</html>

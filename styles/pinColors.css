@@ -1,0 +1,46 @@
+/*
+   Pin-type -> color mapping, replacing the old getPinColor()/PIN_CONFIG.color
+   JS lookup now that points carry a pinType class instead of an inline color.
+
+   To retheme: only the :root block below needs to change - every element
+   that shows a pin's color (board dots, table swatches, anything else you
+   add later) just needs the matching `pin-<TYPE>` class and it'll pick up
+   these values automatically via the shared --pin-color property. */
+
+:root {
+    --pin-ground:             #0066ff;
+    --pin-power_rail:         #00cc44;
+    --pin-edl_candidate:      #ff00ff;
+    --pin-edl_confirmed:      #ff0000;
+    --pin-high_impedance:     #9900cc;
+    --pin-floating:           #1abc9c;
+    --pin-capacitive_bounded: #1abc9c;
+    --pin-capacitive_open:    #ffe100;
+    --pin-medium_resistance:  #e67e22;
+    --pin-low_resistance:     #ff9900;
+    --pin-open_circuit:       #777777;
+    --pin-other:              #333333;
+}
+
+.pin-GROUND              { --pin-color: var(--pin-ground); }
+.pin-POWER_RAIL          { --pin-color: var(--pin-power_rail); }
+.pin-EDL_CANDIDATE       { --pin-color: var(--pin-edl_candidate); }
+.pin-EDL_CONFIRMED       { --pin-color: var(--pin-edl_confirmed); }
+.pin-HIGH_IMPEDANCE      { --pin-color: var(--pin-high_impedance); }
+.pin-FLOATING            { --pin-color: var(--pin-floating); }
+.pin-CAPACITIVE_BOUNDED  { --pin-color: var(--pin-capacitive_bounded); }
+.pin-CAPACITIVE_OPEN     { --pin-color: var(--pin-capacitive_open); }
+.pin-MEDIUM_RESISTANCE   { --pin-color: var(--pin-medium_resistance); }
+.pin-LOW_RESISTANCE      { --pin-color: var(--pin-low_resistance); }
+.pin-OPEN_CIRCUIT        { --pin-color: var(--pin-open_circuit); }
+.pin-OTHER                { --pin-color: var(--pin-other); }
+
+/* Board point and table swatch both just read --pin-color - add any other
+   element that needs the pin color here too. */
+.point,
+.swatch {
+    background-color: var(--pin-color, #ffffff);
+}
+#points-table tr {
+    border-left: 5px solid var(--pin-color, #ffffff);
+}

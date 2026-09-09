@@ -1,0 +1,38 @@
+.scroller {
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+
+.scroller::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroller::-webkit-scrollbar-track {
+  background-color: #262626;
+  border-radius: 999px;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background-color: #727272;
+  border-radius: 999px;
+}
+
+.scroller::-webkit-scrollbar-thumb:hover {
+  background-color: #646465;
+}
+
+.scroller::-webkit-scrollbar-button {
+  display: none;
+}
+
+.scroller::-webkit-scrollbar-corner {
+  background-color: #292929;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .scroller {
+    scrollbar-width: auto;
+    scrollbar-color: #737373 #2e2e2e;
+  }
+}

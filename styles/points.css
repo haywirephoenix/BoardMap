@@ -1,0 +1,207 @@
+/* ---------- Overlay (sits directly on top of the board image) ---------- */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* .overlay.mode-select {
+    cursor: pointer;
+} */
+
+/* .overlay.mode-remove {
+    cursor: not-allowed;
+} */
+
+/* .overlay.mode-move {
+    cursor: grab;
+} */
+
+/* ---------- Crosshair guide lines (Add mode) ---------- */
+.crosshair-line {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.55);
+    pointer-events: none;
+    display: none;
+}
+
+.crosshair-line.horizontal {
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.crosshair-line.vertical {
+    top: 0;
+    height: 100%;
+    width: 1px;
+}
+
+/* ---------- Points ---------- */
+.point {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    z-index: 5;
+}
+
+.point.selected {
+    width: 4px;
+    height: 4px;
+    /* border: 2px solid #fff; */
+    box-shadow: 0 0 0 .5px rgb(255 255 255), 0 0 5px rgba(255, 255, 255, 0.9);
+    z-index: 6;
+}
+
+.point.dragging {
+    opacity: 0.7;
+    z-index: 7;
+}
+
+/* ---------- Tooltip ---------- */
+.point-tooltip {
+    position: absolute;
+    transform: translate(-50%, -150%);
+    background: #000;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 100;
+    padding: 1px 5px;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 8;
+}
+
+/* .point-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid transparent;
+    border-top-color: #fff;
+} */
+
+/* ---------- Add-point popup form ---------- */
+.point-form {
+    position: fixed;
+    background: #111;
+    border: 1px solid #666;
+    padding: 10px;
+    z-index: 50;
+    width: 210px;
+}
+
+.point-form.hidden {
+    display: none;
+}
+
+.point-form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.point-form-row label {
+    color: #ccc;
+    font-size: 8px;
+    flex: 0 0 auto;
+}
+
+.point-form-row input[type="text"] {
+    flex: 1;
+    background: #000;
+    border: 1px solid #555;
+    color: #fff;
+    font-family: inherit;
+    padding: 4px 6px;
+    width: 100%;
+    font-size: 8px;
+    max-width: 124px;
+}
+
+.point-form-row.presets {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Adds spacing between the buttons */
+    flex-wrap: wrap;
+}
+
+.point-form-row.presets>label {
+    margin-right: auto;
+    /* Pushes everything after the label to the far right */
+}
+
+.preset-btn {
+    border: none;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 4px 8px;
+    /* cursor: pointer; */
+}
+
+.preset-btn[data-color="#ff00ff"] {
+    background: #ff00ff;
+}
+
+.preset-btn[data-color="#00ff00"] {
+    background: #00ff00;
+    color: #000;
+}
+
+.preset-btn[data-color="#0066ff"] {
+    background: #0066ff;
+}
+
+.point-form-row.actions {
+    justify-content: flex-end;
+}
+
+.point-form-row.actions button {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 5px 12px;
+    font-weight: 700;
+    font-size: 8px;
+    /* cursor: pointer; */
+}
+
+.point-form-row select {
+    background: #000;
+    color: #fff;
+    font-size: 8px;
+    /* cursor: pointer; */
+}
+
+#pf-cancel {
+    background: transparent !important;
+    color: #ccc !important;
+    border: 1px solid #555 !important;
+}
+
+#pf-pintype {
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+}
+
+/* Ensure individual dropdown options remain readable inside the native popup menu */
+#pf-pintype option {
+    background-color: #222222;
+    color: #ffffff;
+    font-weight: normal;
+}
