@@ -72,15 +72,14 @@ QB.importer = (function () {
         });
     }
 
-    function loadDefaultBoard() {
+        function loadDefaultBoard() {
+        if (QB.storage.load && QB.storage.load()) return;
         fetch('json/board0.json')
             .then(function (res) {
                 if (!res.ok) throw new Error('HTTP ' + res.status);
                 return res.json();
             })
-            .then(function (data) {
-                applyImportedData(data);
-            })
+            .then(applyImportedData)
             .catch(function (err) {
                 console.warn('Could not auto-load json/board0.json:', err);
             });

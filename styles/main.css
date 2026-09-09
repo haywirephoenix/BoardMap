@@ -56,6 +56,12 @@ body {
     display: block;
     pointer-events: none;
 }
+.boards .info{
+    color: #6b6b6b;
+    position: absolute;
+    bottom: 0;
+    font-family: monospace;
+}
 
 #front {
     display: block;
