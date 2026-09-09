@@ -72,6 +72,20 @@ QB.importer = (function () {
         });
     }
 
+    function loadDefaultBoard() {
+        fetch('json/board0.json')
+            .then(function (res) {
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                return res.json();
+            })
+            .then(function (data) {
+                applyImportedData(data);
+            })
+            .catch(function (err) {
+                console.warn('Could not auto-load json/board0.json:', err);
+            });
+    }
+
     function setupExportButton() {
         var exportBtn = document.getElementById('export-btn');
 
@@ -100,6 +114,7 @@ QB.importer = (function () {
     function init() {
         setupImportButton();
         setupExportButton();
+        loadDefaultBoard();
     }
 
     return {
