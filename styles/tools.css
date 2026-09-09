@@ -121,3 +121,23 @@
 .main:has(.toggle-checkbox:checked) #back {
     display: block;
 }
+
+.file-dropdown {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 4px;
+    background: #111;
+    border: 1px solid #444;
+    padding: 6px;
+    margin: 0;
+    position: absolute;
+    left: auto;
+    top: 37px;
+    right: 67px;
+    width: 144px;
+}
+
+.file-dropdown .click-btn {
+    width: 100%;
+    text-align: left;
+}
