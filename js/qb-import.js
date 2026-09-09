@@ -1,14 +1,17 @@
 // qb-import.js
-// Imports a previously-exported points JSON file (see the export-btn handler
-// below) back into the app, replacing whatever is currently loaded.
-//
-// Requires a trigger button in your HTML: <button id="import-btn">Import</button>
-// (mirrors the existing #export-btn). This module creates its own hidden
-// <input type="file"> at init time, so no other markup is needed.
 window.QB = window.QB || {};
 
 QB.importer = (function () {
     var state = QB.state;
+    var CLEARED_FLAG_KEY = 'qb-board-cleared';
+
+    function resetView() {
+        state.selectedPoint = null;
+        state.dragging = null;
+        state.pendingPoint = null;
+        QB.form.hide();
+        QB.crosshair.hide();
+    }
 
     function applyImportedData(data) {
         // Same merge used on normal load, so import accepts anything the
@@ -16,13 +19,11 @@ QB.importer = (function () {
         // older merged shape, or the original flat-array shape) and gets
         // the same shared front/back id counter.
         state.points = QB.storage.mergeAll(data);
-        state.selectedPoint = null;
-        state.dragging = null;
-        state.pendingPoint = null;
-
-        QB.form.hide();
-        QB.crosshair.hide();
+        resetView();
         QB.storage.save(state.points);
+        // Real data is now present, so stop suppressing the auto-default
+        // load on future page loads.
+        localStorage.removeItem(CLEARED_FLAG_KEY);
         QB.points.render();
         QB.table.render();
     }
@@ -51,7 +52,6 @@ QB.importer = (function () {
 
     function setupImportButton() {
         var importBtn = document.getElementById('import-btn');
-
         if (!importBtn) return;
 
         var fileInput = document.createElement('input');
@@ -61,7 +61,7 @@ QB.importer = (function () {
         document.body.appendChild(fileInput);
 
         importBtn.addEventListener('click', function () {
-            fileInput.value = ''; // allow re-selecting the same file twice in a row
+            fileInput.value = '';
             fileInput.click();
         });
 
@@ -72,8 +72,7 @@ QB.importer = (function () {
         });
     }
 
-        function loadDefaultBoard() {
-        if (QB.storage.load && QB.storage.load()) return;
+    function loadDefaultBoard() {
         fetch('json/board0.json')
             .then(function (res) {
                 if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -85,14 +84,24 @@ QB.importer = (function () {
             });
     }
 
+    function shouldAutoLoadDefault() {
+        // User explicitly cleared the board - respect that until they
+        // import something or hit "load default" themselves.
+        if (localStorage.getItem(CLEARED_FLAG_KEY)) return false;
+
+        // Otherwise, only auto-load if there's genuinely nothing saved yet
+        // (covers the case where load() returns an empty-but-present shape).
+        var hasPoints = QB.state.sides.some(function (side) {
+            return QB.util.positionsFor(side).length > 0;
+        });
+        return !hasPoints;
+    }
+
     function setupExportButton() {
         var exportBtn = document.getElementById('export-btn');
-
         if (!exportBtn) return;
 
         exportBtn.addEventListener('click', function () {
-            // Same split used for localStorage, so the exported file and
-            // what's saved locally are always in the exact same shape.
             var data = {
                 front: QB.storage.splitSide(QB.state.points.front),
                 back: QB.storage.splitSide(QB.state.points.back)
@@ -110,10 +119,32 @@ QB.importer = (function () {
         });
     }
 
+    function clearAll() {
+        state.points = QB.storage.emptyPoints();
+        resetView();
+        QB.storage.save(state.points);
+        localStorage.setItem(CLEARED_FLAG_KEY, '1');
+        QB.points.render();
+        QB.table.render();
+    }
+
     function init() {
         setupImportButton();
         setupExportButton();
-        loadDefaultBoard();
+
+        var clearBtn = document.getElementById('clear-btn');
+        if (clearBtn) {
+            clearBtn.addEventListener('click', clearAll);
+        }
+
+        var loadDefBtn = document.getElementById('load-default-btn');
+        if (loadDefBtn) {
+            loadDefBtn.addEventListener('click', loadDefaultBoard);
+        }
+
+        if (shouldAutoLoadDefault()) {
+            loadDefaultBoard();
+        }
     }
 
     return {
